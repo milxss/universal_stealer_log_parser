@@ -2,7 +2,7 @@
 
 Currently supports:
 - Racoon,
-- Stealc,
+- StealC,
 - RedLine,
 - Aurora checker (?),
 - Meta,
@@ -19,5 +19,6 @@ Made for cyber security educational purposes only.
 <img width="595" alt="Screenshot 2023-05-18 at 00 00 24" src="https://github.com/milxss/racoon_log_parser/assets/42537931/2c3eb768-883a-47ba-a201-d62b49b4ac8a">
 
 
-*How to use it?*
+**<h2> How to use it?</h1>**
+
 To make it work simply change "main_folder" and "output_folder" values in main.py file to a folder path where logs are situated on your local. Launch main.py.
