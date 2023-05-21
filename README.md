@@ -33,4 +33,6 @@ Currently supports:
 
 **<h1> How to use it?</h1>**
 
-To make it work simply change "main_folder" and "output_folder" values in main.py file to a folder path where logs are situated on your local. Launch main.py.
+1. To make it work simply change "main_folder" and "output_folder" values in main.py file to a folder path where logs are situated on your local. 
+2. Launch main.py.
+3. To thank me, you can star this GitHub repository <3
