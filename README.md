@@ -1,3 +1,15 @@
+**<h1> What is Stealer malware and how does it operate?</h1>** 
+Stealer malware is a type of malware that is designed to steal sensitive information from infected systems. When executed, it typically searches for and collects data such as browser-saved login credentials, credit card information, browser history and cookies, cryptocurrency wallet access, desktop files, gaming credentials among other technical instance’s information and it even takes desktop screenshots.
+
+This information is then sent back to the attacker’s command and control server, where it can be used for malicious purposes such as identity theft, financial fraud, or espionage. 
+
+Stealer malware can be distributed through various means, including phishing emails, malicious websites, and infected software downloads. Once installed on a system, it can operate in the background without the user’s knowledge, collecting data and sending it back to the attacker.
+
+**Most antivirus software can’t detect stealer malware.**
+
+As a cyber security researcher I work with stealer malware logs on a daily basis, that's why I decided to facilitate my life and automate some of the processes.
+
+
 # Universal stealer malware logs parser
 
 Currently supports:
@@ -9,8 +21,8 @@ Currently supports:
 - Paranoid checker logs,
 - other modified RedLine or Racoon family stealer malware. 
 
-This tool is designed to retrieve all the compromised accounts and credit cards.
-Made for cyber security educational purposes only.
+**This tool is designed to retrieve all the compromised accounts and credit cards.
+Made for cyber security educational purposes only.**
 
 <img width="262" alt="Screenshot 2023-05-15 at 20 11 36" src="https://github.com/milxss/racoon_log_parser/assets/42537931/0552234b-ca21-42d4-bb24-c137e1b69d10"> <img width="462" alt="Screenshot 2023-05-15 at 20 11 15" src="https://github.com/milxss/racoon_log_parser/assets/42537931/f2a67bee-4c11-4fd2-8f4b-d58dd27ce74f">
 <img width="364" alt="Screenshot 2023-05-18 at 00 02 40" src="https://github.com/milxss/racoon_log_parser/assets/42537931/1f6eee5d-ffbd-4943-b06e-b34c4820a4d8">
@@ -19,6 +31,6 @@ Made for cyber security educational purposes only.
 <img width="595" alt="Screenshot 2023-05-18 at 00 00 24" src="https://github.com/milxss/racoon_log_parser/assets/42537931/2c3eb768-883a-47ba-a201-d62b49b4ac8a">
 
 
-**<h2> How to use it?</h1>**
+**<h1> How to use it?</h1>**
 
 To make it work simply change "main_folder" and "output_folder" values in main.py file to a folder path where logs are situated on your local. Launch main.py.
