@@ -33,6 +33,6 @@ Currently supports:
 
 **<h1> How to use it?</h1>**
 
-1. To make it work simply change "main_folder" and "output_folder" values in main.py file to a folder path where logs are situated on your local. 
-2. Launch main.py.
+1. To make it work simply run main.py. 
+2. You will be asked to specify a main folder path, meaning a path to a folder where unpacked logs are situated. Example: Usr/milxss/logs
 3. To thank me, you can star this GitHub repository <3
