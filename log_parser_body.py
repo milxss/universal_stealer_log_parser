@@ -2,7 +2,7 @@ import os
 from urllib.parse import urlsplit
 
 
-def extract_passwords(main_folder, output_folder, output_file):
+def extract_passwords_racoon(main_folder, output_folder, output_file):
     # Loop through all subdirectories in the main folder
     for subdir, dirs, files in os.walk(main_folder):
         # Loop through all files in the current subdirectory
@@ -62,7 +62,7 @@ def extract_passwords(main_folder, output_folder, output_file):
                             f.write(formatted_entry)
 
 
-def extract_passwords2(main_folder, output_folder, output_file2):
+def extract_passwords_redline(main_folder, output_folder, output_file2):
     # Loop through all subdirectories in the main folder
     for subdir, dirs, files in os.walk(main_folder):
         # Loop through all files in the current subdirectory

@@ -1,5 +1,5 @@
-from racoon import extract_passwords, extract_passwords2
-from racoon_cc_parser import process_cc, process_cc_v2
+from log_parser_body import extract_passwords_racoon, extract_passwords_redline
+from cc_parser import process_cc, process_cc_v2
 
 
 def main():
@@ -10,8 +10,8 @@ def main():
     output_folder = main_folder
     process_cc(main_folder)
     process_cc_v2(main_folder)
-    extract_passwords(main_folder, output_folder, output_file)
-    extract_passwords2(main_folder, output_folder, output_file2)
+    extract_passwords_racoon(main_folder, output_folder, output_file)
+    extract_passwords_redline(main_folder, output_folder, output_file2)
 
 
 if __name__ == "__main__":
