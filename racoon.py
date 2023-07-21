@@ -8,7 +8,7 @@ def extract_passwords(main_folder, output_folder, output_file):
         # Loop through all files in the current subdirectory
         for file in files:
             # Check if the current file is a passwords.txt file
-            if file == "passwords.txt" or "Passwords.txt" or "Password List.txt":
+            if file == "passwords.txt" or "Passwords.txt" or "Password List.txt" or "_AllPasswords_list.txt":
                 # Define the path to the current file
                 file_path = os.path.join(subdir, file)
                 # Open the current file for reading
@@ -34,6 +34,8 @@ def extract_passwords(main_folder, output_folder, output_file):
                             url = line.split("URL:")[1].strip()
                         elif line.startswith("url:"):
                             url = line.split("url:")[1].strip() if len(line.split("url:")) > 1 else ""
+                        elif line.startswith("Url:"):
+                            url = line.split("Url:")[1].strip() if len(line.split("Url:")) > 1 else ""
                         elif line.startswith("Host:"):
                             url = line.split("Host:")[1].strip() if len(line.split("Host:")) > 1 else ""
                         elif line.startswith("HOSTNAME:"):
@@ -66,7 +68,7 @@ def extract_passwords2(main_folder, output_folder, output_file2):
         # Loop through all files in the current subdirectory
         for file in files:
             # Check if the current file is a passwords.txt file
-            if file.lower() == "passwords.txt" or "Password List.txt":
+            if file.lower() == "passwords.txt" or "Password List.txt" or "_AllPasswords_list.txt":
                 # Define the path to the current file
                 file_path = os.path.join(subdir, file)
                 # Open the current file for reading
@@ -88,7 +90,7 @@ def extract_passwords2(main_folder, output_folder, output_file2):
                     user = ""
                     password = ""
                     for line in lines:
-                        if line.startswith("URL:") or line.startswith("url:") or line.startswith("Host:") or line.startswith("HOSTNAME:"):
+                        if line.startswith("URL:") or line.startswith("url:") or line.startswith("Url:") or line.startswith("Host:") or line.startswith("HOSTNAME:"):
                             url = line.split(":", 1)[1].strip() if len(line.split(":")) > 1 else ""
                         elif line.startswith("USER:") or line.startswith("login:") or line.startswith("Login") or line.startswith("Username") or line.startswith("USER LOGIN:"):
                             user = line.split(":")[1].strip() if len(line.split(":")) > 1 else ""
