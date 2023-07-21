@@ -34,6 +34,10 @@ Currently supports:
 <img width="595" alt="Screenshot 2023-05-18 at 00 00 24" src="https://github.com/milxss/racoon_log_parser/assets/42537931/2c3eb768-883a-47ba-a201-d62b49b4ac8a">
 
 
+**<h1> Disclaimer </h1>**
+This log parser solution has been tested on UNIX systems only, Windows OS tests have not been conducted. 
+
+
 **<h1> How to use it?</h1>**
 
 1. To make it work simply run main.py. 
