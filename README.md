@@ -31,6 +31,7 @@ Currently supports:
 <img width="335" alt="Screenshot 2023-05-18 at 00 02 08" src="https://github.com/milxss/racoon_log_parser/assets/42537931/aa5379e3-099d-4175-8e57-9dba293de0b5">
 <img width="338" alt="Screenshot 2023-05-18 at 00 01 21" src="https://github.com/milxss/racoon_log_parser/assets/42537931/be40d4ec-eba6-42ed-8b59-afe1f578bbd5">
 <img width="375" alt="Screenshot 2023-06-12 at 15 41 10" src="https://github.com/milxss/universal_log_parser/assets/42537931/58150d1b-6da6-4609-8671-9ec58aae6b31">
+<img width="369" alt="moon" src="https://github.com/milxss/universal_stealer_log_parser/assets/42537931/df81b5fd-7459-40e1-b4d8-b629c7326d84">
 <img width="595" alt="Screenshot 2023-05-18 at 00 00 24" src="https://github.com/milxss/racoon_log_parser/assets/42537931/2c3eb768-883a-47ba-a201-d62b49b4ac8a">
 
 
